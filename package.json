@@ -1,0 +1,29 @@
+{
+    "name": "apt-ssh",
+    "types": ["pack"],
+    "version": "0.1",
+    "homepage": "https://github.com/infOpen/shinken-pack-apt-ssh",
+    "author": "Chaussier Alexandre",
+    "description": "Check APT updates by SSH on debian based systems",
+    "contributors": [
+        {
+            "name": "Chaussier Alexandre",
+            "email": "a.chaussier@infopen.pro"
+        }
+
+    ],
+    "repository": "https://github.com/infOpen/shinken-pack-apt-ssh",
+    "keywords": [
+        "pack",
+        "linux",
+        "debian",
+        "ubuntu",
+        "apt",
+        "ssh"
+    ],
+    "dependencies": {
+        "shinken": ">=1.4",
+        "linux-ssh": ""
+    },
+    "license": "MIT"
+}

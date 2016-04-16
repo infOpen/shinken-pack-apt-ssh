@@ -1,0 +1,27 @@
+{
+    "name": "apt-ssh",
+    "description": "Check upgrade for debian like systems. Checks are done by SSH.",
+    "path": "os/",
+    "macros": {
+        "_APT_WARN_REGEX": {
+            "type":"string",
+            "description": "Regex used for specify package for warning state"
+        },
+        "_APT_CRIT_REGEX": {
+            "type":"string",
+            "description": "Regex used for specify package for critical state"
+        },
+        "_APT_LAST_UPDATE_WARN": {
+            "type":"integer",
+            "description": "Warning level for last apt-get update"
+        },
+        "_APT_LAST_UPDATE_CRIT": {
+            "type":"integer",
+            "description": "Critical level for last apt-get update"
+        },
+        "_APT_FILE_REFERENCE": {
+            "type":"absolute path",
+            "description": "Reference file to check last apt-get update"
+        }
+    }
+}
